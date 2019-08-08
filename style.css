@@ -18,9 +18,13 @@ body {
 .image-wrapper {
     width: 600px;
     height: 500px;
+    padding: 20px;
 
 }
 
+.video-wrapper{
+    padding: 20px;
+}
 ul{
     margin: 0;
     padding: 0;
