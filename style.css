@@ -1,0 +1,62 @@
+body {
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+}
+
+.wrapper {
+    width: 1000px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.image-wrapper {
+    width: 600px;
+    height: 500px;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper li{
+    display: inline-block;
+    margin: 6px;
+    font-size: 60px;
+    list-style: none;
+}
+
+.wrapper li a{
+    color: black;
+}
+
+.wrapper li a:hover {
+    color: #555;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    font-family: Lato;
+    height: 3vh;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 15px;
+    left: 10px;
+}
+
+.wrapper-content{
+    padding: 50px;
+}
