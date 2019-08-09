@@ -3,7 +3,7 @@ body {
     font-weight: 300;
     position: relative;
     height: 100vh;
-    color: #555;
+    color: #333;
 }
 
 .wrapper {
@@ -16,21 +16,23 @@ body {
 }
 
 .image-wrapper {
-    width: 600px;
-    height: 500px;
     padding: 20px;
 
 }
 
+#me{
+    width: 600px;
+    height: 500px;
+}
 .video-wrapper{
     padding: 20px;
 }
-ul{
+.wrapper ul{
     margin: 0;
     padding: 0;
 }
 
-.wrapper li{
+.wrapper-links li{
     display: inline-block;
     margin: 6px;
     font-size: 60px;
@@ -41,13 +43,14 @@ ul{
     color: black;
 }
 
-.wrapper li a:hover {
+.wrapper-links li a:hover {
     color: #555;
 }
 
 .nav-links{
     display: flex;
     align-items: center;
+    list-style: none;
     font-family: Lato;
     height: 3vh;
     justify-content: space-around;
@@ -63,4 +66,50 @@ ul{
 
 .wrapper-content{
     padding: 50px;
+}
+
+.wrapper-content p{
+    line-height: 1.5; 
+}
+h4{
+    text-align: left;
+}
+
+.project-wrapper{
+    padding: 15px;
+
+}
+.project-wrapper ul{
+    list-style-type: circle;
+    text-align: left;
+
+}
+.project-wrapper li{
+    font-family: Lato;
+    font-weight: 400;
+    position: relative;
+    color: #333;
+    font-size: 15px;
+    padding: 4px;
+    left: 30px;
+
+
+}
+#star-image{
+    padding: 40px;
+}
+.project-wrapper p{
+    text-align: left;
+    line-height: 1.5;
+}
+
+.project-link{
+    color: #333;
+    padding: 40px;
+    text-decoration: none;
+}
+
+.project-link:hover{
+    color: #888;
+
 }
