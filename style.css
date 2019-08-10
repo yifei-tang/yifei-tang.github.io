@@ -42,8 +42,21 @@ body {
 }
 
 
-.nav-links{
+nav{
     display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    display: block;
+}
+nav li{
+    flex: 1 0 0;
+}
+
+.nav-links{
     align-items: center;
     list-style: none;
     font-family: Lato;
@@ -59,22 +72,29 @@ body {
     color: black;
 }
 
+.nav-links-ext{
+    align-items: center;
+    list-style: none;
+    font-family: Lato;
+    height: 3vh;
+    width: 20%;
+}
+
 .nav-links a:hover{
     color: #555;
 }
 
-.nav-links .LinkLogo{
+.nav-links-ext a{
     font-size: 30px;
-    right: 50px;
+    text-decoration: none;
     text-align: right;
     color: black;
-    justify-content: flex-end;
 
 }
 
-.nav-links .LinkLogo:hover{
+.nav-links-ext a:hover{
     color: #555;
-}
+} 
 
 .wrapper-content{
     padding: 40px;
