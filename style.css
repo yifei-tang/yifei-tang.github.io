@@ -9,7 +9,7 @@ body {
 .wrapper {
     width: 1000px;
     position: relative;
-    text-align: center;
+    text-align: left;
     margin: auto;
     padding: 20px;
 
@@ -32,20 +32,15 @@ body {
     padding: 0;
 }
 
+.wrapper-links{
+    text-align: right;
+}
 .wrapper-links li{
     display: inline-block;
-    margin: 6px;
     font-size: 60px;
     list-style: none;
 }
 
-.wrapper li a{
-    color: black;
-}
-
-.wrapper-links li a:hover {
-    color: #555;
-}
 
 .nav-links{
     display: flex;
@@ -53,19 +48,36 @@ body {
     list-style: none;
     font-family: Lato;
     height: 3vh;
-    justify-content: space-around;
-    width: 40%;
+    justify-content: space-between;
+    width: 50%;
 }
 
 .nav-links a{
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 15px;
-    left: 10px;
+    color: black;
+}
+
+.nav-links a:hover{
+    color: #555;
+}
+
+.nav-links .LinkLogo{
+    font-size: 30px;
+    right: 50px;
+    text-align: right;
+    color: black;
+    justify-content: flex-end;
+
+}
+
+.nav-links .LinkLogo:hover{
+    color: #555;
 }
 
 .wrapper-content{
-    padding: 50px;
+    padding: 40px;
 }
 
 .wrapper-content p{
